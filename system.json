@@ -1,0 +1,30 @@
+{
+  "name": "aetheria",
+  "title": "Aetheria",
+  "description": "The Aetheria system for FoundryVTT!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "templateVersion": 2,
+  "author": "Insilvon",
+  "esmodules": ["module/aetheria.js"],
+  "styles": ["css/aetheria.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 3,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "initiative": "1d20 + @attributes.initiative.ability",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}

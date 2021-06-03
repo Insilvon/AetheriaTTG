@@ -1,0 +1,191 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "templates": {
+      "base": {
+        "power": {
+          "value": 0,
+          "min": 0,
+          "max": 999
+        }
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "biography": "",
+      "attributes": {
+        "level": {
+          "value": 1
+        },
+        "bonusMove": {
+          "value": 0
+        },
+        "bonusArmor": {
+          "value": 0
+        },
+        "bonusCharm": {
+          "value": 0
+        },
+        "initiative": {
+          "ability": "none",
+          "value": 0
+        }
+      },
+      "profession": {
+        "value": "None",
+        "level": 0,
+        "xp": 0,
+        "maxXp": 10
+      },
+      "stats": {
+        "species": {
+          "value": "Human"
+        },
+        "level": {
+          "value": 0,
+          "min": 0,
+          "max": 999
+        },
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "xp": {
+          "value": 0,
+          "min": 0,
+          "max": 999
+        },
+        "luck": {
+          "value": 0,
+          "min": 0,
+          "max": 20
+        },
+        "money": {
+          "value": 0,
+          "min": 0,
+          "max": 999999
+        },
+        "chaos": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "armor": {
+          "value": 0,
+          "min": 0,
+          "max": 1       
+        },
+        "available_points": {
+          "value": 0
+        }
+      },
+      "abilities": {
+        "Strength": {
+          "value": 0
+        },
+        "Medicine": {
+          "value": 0
+        },
+        "Traps": {
+          "value": 0
+        },
+        "Sneak": {
+          "value": 0
+        },
+        "Casting": {
+          "value": 0
+        },
+        "Constitution": {
+          "value": 0
+        },
+        "Persuasion": {
+          "value": 0
+        },
+        "Survival": {
+          "value": 0
+        },
+        "Agility": {
+          "value": 0
+        },
+        "Resist_Aff": {
+          "value": 0
+        },
+        "Intimidation": {
+          "value": 0
+        },
+        "Deduction": {
+          "value": 0
+        },
+        "Perception": {
+          "value": 0
+        },
+        "Thievery": {
+          "value": 0
+        },
+        "Inner_Ki": {
+          "value": 0
+        }
+      },
+      "charm": {
+        "cavalier": {
+          "value": 0
+        },
+        "healer": {
+          "value": 0
+        },
+        "archer": {
+          "value": 0
+        },
+        "rogue": {
+          "value": 0
+        },
+        "mage": {
+          "value": 0
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": ["item", "weapon", "armor", "prism", "ability", "speciesability"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0
+    },
+    "weapon": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "damage": 0
+    },
+    "armor": {
+      "templates": ["base"],
+      "quantity": 1,
+      "level": 0,
+      "durability": 10,
+      "equipped": "false",
+      "weight": 0
+    },
+    "prism": {
+      "templates": ["base"],
+      "quantity": 1,
+      "charges": 10
+    },
+    "ability": {
+      "templates": ["base"],
+      "actionCost": 0,
+      "damage": 0
+    },
+    "speciesability": {
+      "templates": ["base"],
+      "actionCost": 0,
+      "damage": 0
+    }
+  }
+}
